@@ -1,13 +1,13 @@
 <template>
   <q-page>
     <q-btn
-        dense
-        no-caps
-        unelevated
-        color="primary"
-        padding="2px 10px 2px 10px"
-        class="flex q-mb-sm"
-      >
+      dense
+      no-caps
+      unelevated
+      color="primary"
+      padding="2px 10px 2px 10px"
+      class="flex q-mb-sm"
+    >
         <q-icon name="add" size="xs" class="q-mr-sm"></q-icon>
         <span>Photo</span>
         <q-popup-proxy>

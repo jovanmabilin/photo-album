@@ -1,13 +1,13 @@
 <template>
   <q-page>
     <q-btn
-        dense
-        no-caps
-        unelevated
-        color="primary"
-        padding="2px 10px 2px 10px"
-        class="flex q-mb-sm"
-      >
+      dense
+      no-caps
+      unelevated
+      color="primary"
+      padding="2px 10px 2px 10px"
+      class="flex q-mb-sm"
+    >
         <q-icon name="add" size="xs" class="q-mr-sm"></q-icon>
         <span>Album</span>
         <q-popup-proxy>
@@ -172,14 +172,12 @@ export default {
       })
     },
     enableEdit(album) {
-      console.log('Lol:', album)
       this.resetEditState()
       this.albumTitle = album.title
       album.isEdit = true
       this.$forceUpdate()
     },
     getAlbum(album) {
-      console.log('getAlbum', album)
       this.$store.dispatch('album/getAlbum', album)
     },
     cancelEdit(album) {
