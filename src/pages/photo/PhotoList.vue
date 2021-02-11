@@ -35,7 +35,7 @@
           <q-card bordered flat class="cursor-pointer">
             <q-img :src="photo.thumbnailUrl" class="cursor-pointer" @click="openCarousel(photo)">
               <div class="absolute-bottom custom-caption">
-                <div>{{  photo.title }} photos</div>
+                <div>{{ photo.title }}</div>
               </div>
             </q-img>
             <q-card-actions>
