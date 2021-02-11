@@ -30,7 +30,7 @@
             <div>{{ getUser.phone }}</div>
             <div>{{ getUser.email }}</div>
             <div>
-              <a :href="getUser.website" class="text-primary">{{ getUser.website }}</a>
+              <a :href="`http://${getUser.website}`" target="_blank" class="text-primary">{{ getUser.website }}</a>
             </div>
           </div>
         </div>
